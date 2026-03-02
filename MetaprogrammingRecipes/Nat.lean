@@ -5,8 +5,8 @@ Author: David Thrane Christiansen
 -/
 
 import VersoManual
-import TextbookTemplate.Meta.Lean
-import TextbookTemplate.Papers
+import MetaprogrammingRecipes.Meta.Lean
+import MetaprogrammingRecipes.Papers
 
 -- This gets access to most of the manual genre (which is also useful for textbooks)
 open Verso.Genre Manual
@@ -16,7 +16,7 @@ open Verso.Genre Manual
 open Verso.Genre.Manual.InlineLean
 
 
-open TextbookTemplate
+open MetaprogrammingRecipes
 
 set_option pp.rawOnError true
 

@@ -1,0 +1,14 @@
+name = "MetaprogrammingRecipes"
+defaultTargets = ["MetaprogrammingRecipes", "metaprogramming-recipes"]
+
+[[require]]
+name = "verso"
+git = "https://github.com/leanprover/verso"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "MetaprogrammingRecipes"
+
+[[lean_exe]]
+name = "metaprogramming-recipes"
+root = "Main"
