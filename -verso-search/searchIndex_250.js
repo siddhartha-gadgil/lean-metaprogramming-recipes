@@ -1,0 +1,1 @@
+window.docContents[250].resolve({"/MetaprogrammingRecipes/SecondFile/#mod-doc-MetaprogrammingRecipes___SecondFile-1-0":{"contents":"## Second File\n\nThis is the second file.","context":"","header":"MetaprogrammingRecipes.SecondFile","id":"/MetaprogrammingRecipes/SecondFile/#mod-doc-MetaprogrammingRecipes___SecondFile-1-0"}});

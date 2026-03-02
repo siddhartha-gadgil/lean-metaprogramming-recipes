@@ -1,0 +1,1 @@
+window.docContents[181].resolve({"/MetaprogrammingRecipes/SecondFile/#add_comm":{"contents":"This is a theorem about addition.","context":"","header":"add_comm","id":"/MetaprogrammingRecipes/SecondFile/#add_comm"}});

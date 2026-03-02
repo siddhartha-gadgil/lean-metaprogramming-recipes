@@ -1,0 +1,1 @@
+window.docContents[170].resolve({"/MetaprogrammingRecipes/SecondFile/#add":{"contents":"This is a function that adds two numbers.","context":"","header":"add","id":"/MetaprogrammingRecipes/SecondFile/#add"}});

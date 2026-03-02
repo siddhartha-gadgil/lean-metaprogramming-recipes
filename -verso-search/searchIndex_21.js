@@ -1,0 +1,1 @@
+window.docContents[21].resolve({"/MetaprogrammingRecipes/FirstFile/#five_eq_five":{"contents":"This is a theorem.","context":"","header":"five_eq_five","id":"/MetaprogrammingRecipes/FirstFile/#five_eq_five"}});

@@ -1,0 +1,1 @@
+window.docContents[215].resolve({"/MetaprogrammingRecipes/FirstFile/#five":{"contents":"This is a constant.","context":"","header":"five","id":"/MetaprogrammingRecipes/FirstFile/#five"}});
