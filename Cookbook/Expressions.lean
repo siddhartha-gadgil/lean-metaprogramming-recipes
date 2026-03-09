@@ -1,5 +1,4 @@
 import VersoManual
-import Cookbook.Expressions.DefiningExpressions
 import Cookbook.Expressions.match_le
 import Cookbook.Expressions.displayingExpressionsLoginfoEtc
 import Cookbook.Expressions.syntaxStringsFromExpressions
@@ -18,9 +17,7 @@ tag := "expressions"
 number := false
 %%%
 
-{include 1 Cookbook.Expressions.DefiningExpressions}
 {include 1 Cookbook.Expressions.match_le}
-
 {include 1 Cookbook.Expressions.displayingExpressionsLoginfoEtc}
 {include 1 Cookbook.Expressions.syntaxStringsFromExpressions}
 {include 1 Cookbook.Expressions.matchingExpressionsExactMatch}
