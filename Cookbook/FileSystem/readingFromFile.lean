@@ -9,4 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Running an external program (e.g. `curl`)" =>
+#doc (Manual) "Reading from a file" =>
+
+%%%
+tag := "reading-from-file"
+number := false
+%%%
+
+{index}[Reading from a file]

@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Introducing commands - checking that something can be proved by grind." =>
+
+%%%
+tag := "introducing-commands-checking-that-something-can-be-proved-by-grind"
+number := false
+%%%
+
+{index}[Introducing commands - checking that something can be proved by grind.]

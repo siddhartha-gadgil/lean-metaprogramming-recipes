@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Attributes for commands" =>
+
+%%%
+tag := "attributes-for-commands"
+number := false
+%%%
+
+{index}[Attributes for commands]

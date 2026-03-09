@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "State monads" =>
+
+%%%
+tag := "state-monads"
+number := false
+%%%
+
+{index}[State monads]

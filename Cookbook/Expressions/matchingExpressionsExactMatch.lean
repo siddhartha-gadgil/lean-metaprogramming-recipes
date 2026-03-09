@@ -9,4 +9,12 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Matching expressions: exact match" =>
+#doc (Manual) "Matching expressions - exact match" =>
+
+%%%
+tag := "matching-expressions-exact-match"
+number := false
+%%%
+
+{index}[Matching expressions - exact match]
+

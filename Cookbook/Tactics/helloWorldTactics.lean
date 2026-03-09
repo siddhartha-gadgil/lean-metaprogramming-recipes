@@ -8,13 +8,19 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Tactics" =>
+#doc (Manual) "Hello World Tactic" =>
 
-# What are Tactics?
+%%%
+tag := "hello-world-tactics"
+number := false
+%%%
 
-Tactics are used to build proofs.
+{index}[Hello World Tactics]
 
 # A Basic Tactic
+
+This is a very basic tactic that does nothing. This is just to show how to define a tactic in Lean.
+
 
 ```lean
 open Lean Elab Tactic

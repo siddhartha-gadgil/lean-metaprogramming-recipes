@@ -7,6 +7,11 @@ import Cookbook.MaintainingState.attributesForCommands
 open Verso.Genre Manual
 
 #doc (Manual) "Maintaining state" =>
+
+%%%
+tag := "maintaining-state"
+number := false
+%%%
 {include 1 Cookbook.MaintainingState.stateMonads}
 {include 1 Cookbook.MaintainingState.stateInCurrentEnvironmentIorefAndIomutex}
 {include 1 Cookbook.MaintainingState.persistentStateEnvironmentExtensions}

@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Building expressions for function applications" =>
+
+%%%
+tag := "building-expressions-for-function-applications"
+number := false
+%%%
+
+{index}[Building expressions for function applications]

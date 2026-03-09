@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "writing tactics giving new goals." =>
+
+%%%
+tag := "writing-tactics-giving-new-goals"
+number := false
+%%%
+
+{index}[writing tactics giving new goals.]

@@ -11,6 +11,13 @@ set_option pp.rawOnError true
 
 #doc (Manual) "To define a tactic using elaborators" =>
 
+%%%
+tag := "tactic-using-elaborators"
+number := false
+%%%
+
+{index}[To define a tactic using elaborators]
+
 Let's start by writing a basic elaborator that retrieves and displays the expression representing the type of the main goal.
 
 ```lean

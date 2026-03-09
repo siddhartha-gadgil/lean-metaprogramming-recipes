@@ -11,6 +11,13 @@ set_option pp.rawOnError true
 
 #doc (Manual) "Writing a function that matches an expression for inequality" =>
 
+%%%
+tag := "match-le"
+number := false
+%%%
+
+{index}[Writing a function that matches an expression for inequality]
+
 Suppose we want to inspect a goal to see if it is an inequality of the form `a ≤ b`, where a and b are natural numbers. If it is, we want to extract and print those values to the Infoview. Because this involves creating and assigning metavariables (temporary placeholders), we need to work inside the `MetaM` monad.
 
 We will start by writing a function that takes an expression (`Expr`) as input. Its output will be an `Option (Expr × Expr)` wrapped inside the MetaM monad, allowing it to return the two sides of the inequality if a match is found, or none if it is not.

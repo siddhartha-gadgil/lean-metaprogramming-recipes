@@ -10,7 +10,12 @@ import Cookbook.Tactics.tryingDifferentNaturalNumbers
 
 open Verso.Genre Manual
 
-#doc (Manual) "Working with tactics" =>
+#doc (Manual) "Tactics" =>
+
+%%%
+tag := "tactics"
+number := false
+%%%
 {include 1 Cookbook.Tactics.helloWorldTactics}
 {include 1 Cookbook.Tactics.tacticUsingMacro}
 {include 1 Cookbook.Tactics.tacticUsingElaborators}

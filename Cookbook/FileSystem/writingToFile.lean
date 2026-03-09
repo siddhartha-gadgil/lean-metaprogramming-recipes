@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Writing to a file" =>
+
+%%%
+tag := "writing-to-file"
+number := false
+%%%
+
+{index}[Writing to a file]

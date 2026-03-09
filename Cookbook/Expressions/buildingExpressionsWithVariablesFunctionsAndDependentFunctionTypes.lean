@@ -9,4 +9,12 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Building expressions with variables (functions and dependent function types)" =>
+#doc (Manual) "Building expressions with variables, functions, and dependent function types" =>
+
+%%%
+tag := "building-expressions-with-variables-functions-and-dependent-function-types"
+number := false
+%%%
+
+{index}[Building expressions with variables, functions, and dependent function types]
+

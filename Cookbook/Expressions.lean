@@ -13,6 +13,11 @@ open Verso.Genre Manual
 
 #doc (Manual) "Expressions" =>
 
+%%%
+tag := "expressions"
+number := false
+%%%
+
 {include 1 Cookbook.Expressions.DefiningExpressions}
 {include 1 Cookbook.Expressions.match_le}
 

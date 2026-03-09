@@ -11,6 +11,13 @@ set_option pp.rawOnError true
 
 #doc (Manual) "Define a tactic using macros" =>
 
+%%%
+tag := "tactic-using-macro"
+number := false
+%%%
+
+{index}[Define a tactic using macros]
+
 # `repeat_apply` tactic
 
 We start with an example of a routine proof we might do. To prove `2 ≤ 6`.

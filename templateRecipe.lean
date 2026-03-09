@@ -4,16 +4,19 @@ import Cookbook.Lean
 open Verso.Genre Manual
 open Verso.Genre.Manual.InlineLean
 
-open Lean Elab Meta Tactic Command
 open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "writing tactics that close goals" =>
+#doc (Manual) "title" =>
 
 %%%
-tag := "writing-tactics-that-close-goals"
+tag := "title-as-it-is"
 number := false
 %%%
 
-{index}[writing tactics that close goals]
+{index}[Title]
+
+# Your recipe subheaders, etc
+
+Write here about your recipe...

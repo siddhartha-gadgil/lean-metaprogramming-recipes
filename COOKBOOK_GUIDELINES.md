@@ -9,7 +9,6 @@ Since we contain both programming and metaprogramming recipes, we name the repos
 The cookbook is organized into a hierarchy of chapters and recipes:
 
 - **Main Entry**: `Cookbook.lean` is the front page.
-- **Chapter Aggregator**: `Cookbook/Chapters.lean` manages the list of all chapters and the index.
 - **Chapter Parent Files**: Located in `Cookbook/` (e.g., `Syntax.lean`, `Expressions.lean`). These define the chapter title and include individual recipes.
 - **Recipes**: Individual Lean files located in subdirectories (e.g., `Cookbook/Syntax/Commands.lean`).
 
@@ -21,26 +20,16 @@ Writing a new recipe is straightforward. Follow these steps to ensure your contr
 
 2. **Create a New File**: Add a `.lean` file in the appropriate subdirectory: `Cookbook/{CHAPTER_NAME}/{RecipeName}.lean`. You may add a new chapter if needed. Please read the Section on Naming Conventions below before naming your file.
 
-3. **Import Common Modules**: Start your file with the below imports:
+3. **Use the Template**: Copy the [templateRecipe.lean](./templateRecipe.lean) and modify it according to your recipe.
 
-```lean
-import VersoManual
-import Cookbook.Lean
+**Note**:
+The `tag` should be your filename and it is Very important to add this for indexing and cross-referencing purposes. It should be in `kebab-case` and should match the file name (without the `.lean` extension) exactly. For example, `readingFromFile.lean` should have `tag := "reading-from-file"`.
 
-open Verso.Genre Manual
-open Verso.Genre.Manual.InlineLean
+The `number := false` option is used to prevent automatic numbering of the recipe, which is generally preferred for individual recipes.
 
-open Lean Elab Meta Tactic Command
-open Cookbook
+4. **Writing Recipe Content**: Follow the best practices outlined in this file and see [buildingRecipe](./Cookbook/buildingRecipe.lean) for an example of how to write different sections of the recipe.
 
-set_option pp.rawOnError true
-```
-
-4. **Define the Document**: Use `#doc (Manual) "Your Recipe Title" =>` to start. This should be different from file name and this will be visible on the Website for the recipe. The file name should be more technical and simpler, while the title can be more descriptive and user-friendly.
-
-5. **Use Sections**: Use `#` for top-level headers within your recipe and `##` for sub-sections.
-
-6. **Link to Chapter**: Add your file to the chapter's parent file to ensure it appears in the chapter and is indexed properly:
+5. **Link to Chapter**: Add your file to the chapter's parent file to ensure it appears in the chapter and is indexed properly:
    - Open the chapter's parent file (e.g., `Cookbook/{CHAPTER_NAME}.lean`).
    - Add `import Cookbook.{CHAPTER_NAME}.{RecipeName}` at the top.
    - Include it using `{include 1 Cookbook.{CHAPTER_NAME}.{RecipeName}}`. If you think the recipe should come before other recipes, add it before the existing ones properly, otherwise add it at the end.
@@ -64,9 +53,13 @@ Please go through the [Example.lean](./Cookbook/Example.lean) recipe for a templ
 ## Best Practices
 
 - **Atomic Examples**: Keep each recipe focused on one specific problem.
-- **Indexing**: Add index entries for key concepts: `{index}[My Concept]`.
+
+- **Indexing**: Add index entries for key concepts: `{index}[Recipe Title]`. The title of recipe and index naming should be the same.
+
 - **Explain the "Why"**: Don't just show code; explain the approach and mention any "Pro-tips", but avoid excessive conceptual explanations unless necessary, by this we mean that refer any other official documentation/books for conceptual explanations, but if no other resources exist, then you can add a brief conceptual explanation but it should be concise and to the point.
+
 - **Cross-Reference**: Link to related recipes using `{ref "tag"}[text]` and text sources like TPIL, FPIL, other Official Lean docs, etc. for conceptual explanations if needed.
+
 - **Run Locally**: Always build your changes locally:
 
 ```bash
@@ -74,7 +67,9 @@ lake build lean-cookbook
 lake exe lean-cookbook
 ```
 
-- No AI Slop. Please write the content yourself. Since this is meant for you to write code easily, the more AI Slop there is with complicated jargon and less precise explanations, the less useful it will be. If you need help, ask in discussions or reach out on discusssions.
+To see what the recipe and cookbook will look like, you can go to `lean-metaprogramming-recipes/_out/html-multi/index.html` (you should have it locally) after running the above command, and check the html file to see how it looks. The `html-multi` directory contains the output of the documentation build, and you can traverse it to see html of individual recipes and chapters as well.
+
+- _No AI Slop_. Please write the content yourself. Since this is meant for you to write code easily, the more AI Slop there is (with complicated jargon and less precise explanations), the less useful it will be. If you need help, ask in discussions or reach out on Lean zulip.
 
 ## Building and Previewing
 

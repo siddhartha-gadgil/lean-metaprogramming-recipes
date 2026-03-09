@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Tactics as abbreviations and mnemonics" =>
+
+%%%
+tag := "tactics-as-abbreviations-and-mnemonics"
+number := false
+%%%
+
+{index}[Tactics as abbreviations and mnemonics]

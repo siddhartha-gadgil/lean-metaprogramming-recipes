@@ -11,6 +11,11 @@ set_option pp.rawOnError true
 
 #doc (Manual) "Expressions" =>
 
+%%%
+tag := "defining-expressions"
+number := false
+%%%
+
 # What are Expressions?
 {index}[Expressions]
 

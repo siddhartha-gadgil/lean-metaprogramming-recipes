@@ -9,4 +9,12 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Reading from a file" =>
+#doc (Manual) "Appending to a file" =>
+
+%%%
+tag := "appending-to-file"
+number := false
+%%%
+
+{index}[Appending to a file]
+

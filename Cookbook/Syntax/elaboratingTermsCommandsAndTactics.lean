@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "elaborating terms, commands and tactics" =>
+
+%%%
+tag := "elaborating-terms-commands-and-tactics"
+number := false
+%%%
+
+{index}[elaborating terms, commands and tactics]

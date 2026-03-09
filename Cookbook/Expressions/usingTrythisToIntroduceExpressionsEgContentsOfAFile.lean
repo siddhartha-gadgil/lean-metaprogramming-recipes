@@ -9,4 +9,12 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Using `TryThis` to introduce expressions (e.g. contents of a file)." =>
+#doc (Manual) "Using TryThis to introduce expressions (e.g., contents of a file)" =>
+
+%%%
+tag := "using-trythis-to-introduce-expressions-eg-contents-of-a-file"
+number := false
+%%%
+
+{index}[Using TryThis to introduce expressions (e.g., contents of a file)]
+

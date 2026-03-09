@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Matching expressions with solving" =>
+
+%%%
+tag := "matching-expressions-with-solving"
+number := false
+%%%
+
+{index}[Matching expressions with solving]

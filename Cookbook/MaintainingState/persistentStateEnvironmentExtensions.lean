@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "Persistent state - environment extensions" =>
+
+%%%
+tag := "persistent-state-environment-extensions"
+number := false
+%%%
+
+{index}[Persistent state - environment extensions]

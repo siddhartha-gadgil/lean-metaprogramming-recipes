@@ -10,3 +10,10 @@ open Cookbook
 set_option pp.rawOnError true
 
 #doc (Manual) "trying different natural numbers" =>
+
+%%%
+tag := "trying-different-natural-numbers"
+number := false
+%%%
+
+{index}[trying different natural numbers]

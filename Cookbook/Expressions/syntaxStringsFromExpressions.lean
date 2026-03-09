@@ -9,4 +9,12 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Syntax, strings from expressions" =>
+#doc (Manual) "Syntax strings from expressions" =>
+
+%%%
+tag := "syntax-strings-from-expressions"
+number := false
+%%%
+
+{index}[Syntax strings from expressions]
+
