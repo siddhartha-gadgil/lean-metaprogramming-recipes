@@ -8,15 +8,17 @@ There are many ways to contribute:
 
 - **Add a New Recipe**: Share your knowledge by writing a concise, modular example.
 - **Improve Existing Recipes**: Fix typos, improve explanations, or update code to the latest Lean 4 version.
+- **Improving Documentation**: If you find any other documentation issues that could be improved, please feel free to contribute.
 - **Report Issues**: Found a bug or an error? Let us know in the GitHub issues.
 - **Feedback & Suggestions**: Have an idea for a new chapter? Start a discussion.
 
 ## Getting Started
 
-1. **Read the Guidelines**: Please read our [Cookbook Guidelines](COOKBOOK_GUIDELINES.md) for technical instructions on how to structure your contribution.
+1. **Read the Guidelines**: Please read our [Cookbook Guidelines](COOKBOOK_GUIDELINES.md) for technical instructions on how to structure your recipe contribution.
 2. **Setup Locally**: Clone the repository and ensure you can build it.
    ```bash
-   lake build metaprogramming-recipes
+   lake build lean-cookbook
+   lake exe lean-cookbook # to preview the documentation locally
    ```
 3. **Follow the Code of Conduct**: We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 

@@ -48,12 +48,12 @@ Lean 4.
 
 {include 1 Cookbook.Syntax}
 
+{include 1 Cookbook.Tactics}
+
 {include 1 Cookbook.FileSystem}
 
 {include 1 Cookbook.maintainingState}
 
-{include 1 Cookbook.Tactics}
+{include 0 Cookbook.buildingRecipe}
 
-{include 1 Cookbook.buildingRecipe}
-
-{include 1 Cookbook.Index}
+{include 0 Cookbook.Index}
