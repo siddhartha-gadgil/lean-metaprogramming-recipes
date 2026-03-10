@@ -15,7 +15,7 @@ tag := "hello-world-tactics"
 number := false
 %%%
 
-{index}[Hello World Tactics]
+{index}[Hello World Tactic]
 
 # A Basic Tactic
 
@@ -26,7 +26,7 @@ This is a very basic tactic that does nothing. This is just to show how to defin
 open Lean Elab Tactic
 
 elab "hello_tactic" : tactic => do
-  evalTactic (← `(tactic| skip))
+  return
 
 example : 1 = 1 := by
   hello_tactic

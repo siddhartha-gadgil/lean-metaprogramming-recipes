@@ -8,14 +8,14 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Types of Expressions in Lean" =>
+#doc (Manual) "Types of Expressions" =>
 
 %%%
 tag := "kinds-of-expressions"
 number := false
 %%%
 
-{index}[Different Types of Expressions in Lean]
+{index}[Types of Expressions]
 
 # The `Expr` type
 

@@ -9,11 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Displaying expressions (logInfo, etc.)" =>
+#doc (Manual) "Displaying in the Infoview" =>
 
 %%%
 tag := "displaying-expressions-loginfo-etc"
 number := false
 %%%
 
-{index}[Displaying expressions (logInfo, etc.)]
+{index}[Displaying in the Infoview]

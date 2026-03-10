@@ -9,11 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "adding syntax and syntax categories" =>
+#doc (Manual) "Adding syntax (categories)" =>
 
 %%%
 tag := "adding-syntax-and-syntax-categories"
 number := false
 %%%
 
-{index}[adding syntax and syntax categories]
+{index}[Adding syntax (categories)]

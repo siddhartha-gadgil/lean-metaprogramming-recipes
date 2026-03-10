@@ -6,7 +6,7 @@ import Cookbook.Expressions.matchingExpressionsExactMatch
 import Cookbook.Expressions.matchingExpressionsWithSolving
 import Cookbook.Expressions.buildingExpressionsForFunctionApplications
 import Cookbook.Expressions.buildingExpressionsWithVariablesFunctionsAndDependentFunctionTypes
-import Cookbook.Expressions.usingTrythisToIntroduceExpressionsEgContentsOfAFile
+import Cookbook.Expressions.replacingCodeUsingTryThis
 
 open Verso.Genre Manual
 
@@ -24,4 +24,4 @@ number := false
 {include 1 Cookbook.Expressions.matchingExpressionsWithSolving}
 {include 1 Cookbook.Expressions.buildingExpressionsForFunctionApplications}
 {include 1 Cookbook.Expressions.buildingExpressionsWithVariablesFunctionsAndDependentFunctionTypes}
-{include 1 Cookbook.Expressions.usingTrythisToIntroduceExpressionsEgContentsOfAFile}
+{include 1 Cookbook.Expressions.replacingCodeUsingTryThis}
