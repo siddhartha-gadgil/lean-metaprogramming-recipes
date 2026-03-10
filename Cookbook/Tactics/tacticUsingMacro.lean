@@ -9,14 +9,14 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Define a tactic using macros" =>
+#doc (Manual) "Tactic using macros" =>
 
 %%%
 tag := "tactic-using-macro"
 number := false
 %%%
 
-{index}[Define a tactic using macros]
+{index}[Tactic using macros]
 
 # `repeat_apply` tactic
 

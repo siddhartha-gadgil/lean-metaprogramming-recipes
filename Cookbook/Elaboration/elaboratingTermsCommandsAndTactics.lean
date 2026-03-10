@@ -17,3 +17,5 @@ number := false
 %%%
 
 {index}[elaborating terms, commands and tactics]
+
+This should be a chapter.

@@ -9,11 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "State in current environment - `IO.Ref` and `IO.Mutex`" =>
+#doc (Manual) "State using `IO.Ref`" =>
 
 %%%
 tag := "state-in-current-environment-ioref-and-iomutex"
 number := false
 %%%
 
-{index}[State in current environment - `IO.Ref` and `IO.Mutex`]
+{index}[State using `IO.Ref`]

@@ -1,6 +1,7 @@
 import VersoManual
 import Cookbook.Lean
 
+import Cookbook.Overview
 import Cookbook.Expressions
 import Cookbook.Syntax
 import Cookbook.FileSystem
@@ -8,6 +9,7 @@ import Cookbook.maintainingState
 import Cookbook.Tactics
 import Cookbook.Index
 import Cookbook.buildingRecipe
+import Cookbook.Elaboration
 
 open Verso.Genre Manual
 open Verso.Genre.Manual.InlineLean
@@ -24,7 +26,7 @@ tag := "lean-metaprogramming-cookbook"
 number := false
 %%%
 
-Welcome to the *Lean 4 (Meta)programming Cookbook*, a collection of recipes and examples for 
+Welcome to the *Lean 4 (Meta)programming Cookbook*, a collection of recipes and examples for
 programming and metaprogramming in Lean4. This cookbook provides a wide range of recipes, from basic to advanced which you can easily understand and integrate in your code.
 
 If want to write metaprogramming code in Lean 4, this is the right
@@ -44,9 +46,13 @@ We hope that this resource will be helpful for both beginners
 and experienced programmers looking to deepen their understanding of
 Lean 4.
 
-{include 1 Cookbook.Expressions}
+{include 1 Cookbook.Overview}
 
 {include 1 Cookbook.Syntax}
+
+{include 1 Cookbook.Expressions}
+
+{include 1 Cookbook.Elaboration}
 
 {include 1 Cookbook.Tactics}
 

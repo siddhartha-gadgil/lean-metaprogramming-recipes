@@ -9,11 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Exact Pattern-Matching" =>
+#doc (Manual) "Replacing code using `TryThis`" =>
 
 %%%
-tag := "matching-expressions-exact-match"
+tag := "replacing-code-using-trythis"
 number := false
 %%%
 
-{index}[Exact Pattern-Matching]
+{index}[Replacing code using `TryThis`]

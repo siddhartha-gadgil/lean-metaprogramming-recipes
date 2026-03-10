@@ -30,6 +30,5 @@ Please create a pull request with your code snippet and we will review it as soo
 ## Acknowledgements
 
 This is an initiative to help everyone learn metaprogramming in Lean4 and we would like to thank everyone from the Lean4 community who has contributed to this repository.
-Special thanks to [Professor Siddhartha Gadgil](https://math.iisc.ac.in/~gadgil), IISc Bengaluru for his idea and support in creating this repository.
 
 This repository is built using Verso.

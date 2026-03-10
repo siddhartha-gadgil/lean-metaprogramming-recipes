@@ -9,14 +9,14 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "Matching expression patterns by solving" =>
+#doc (Manual) "Pattern-Matching by Solving" =>
 
 %%%
-tag := "matching-expressions-by-solving"
+tag := "matching-expressions-by-Solving"
 number := false
 %%%
 
-{index}[Matching expression patterns by solving]
+{index}[Pattern-matching by solving]
 
 In the [previous section](./Expressions/Matching-expressions---exact-match/#matching-expressions-exact-match), we saw how to match expressions by checking their structure. However, this method is brittle as Lean may, for example, reduce expressions or unfold definitions, causing the structure to change and the match to fail.
 

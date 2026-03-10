@@ -9,11 +9,11 @@ open Cookbook
 
 set_option pp.rawOnError true
 
-#doc (Manual) "checking if a tactic is valid" =>
+#doc (Manual) "Checking validity of Tactics" =>
 
 %%%
 tag := "checking-if-a-tactic-is-valid"
 number := false
 %%%
 
-{index}[checking if a tactic is valid]
+{index}[Checking validity of Tactics]
