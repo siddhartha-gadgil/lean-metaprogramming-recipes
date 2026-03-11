@@ -17,11 +17,9 @@ number := false
 
 {index}[Code, Syntax, and Expressions]
 
-# Meta Programming in Lean
+# Internal Representations of Code
 
-Meta programming in Lean refers to the ability to write code that manipulates other code. As code is represented by strings, the simpleminded way to do meta programming is to manipulate strings. However, this is  very error-prone and not very powerful or efficient.
-
-Instead, in meta-programming one manipulates the _internal representations_ of code. In Lean, there are two levels of internal representations of code: *Syntax* and *Expressions* (in most other languages one manipulates the *Abstract Syntax Tree*). Both `Syntax` and `Expr` are types defined in the Lean core library, and they are used extensively in meta programming. Lean provides a rich API for working with both `Syntax` and `Expr`.
+Both `Syntax` and `Expr` are types defined in the Lean core library, and they are used extensively in meta programming. Lean provides a rich API for working with both `Syntax` and `Expr`.
 
 ## Syntax
 
