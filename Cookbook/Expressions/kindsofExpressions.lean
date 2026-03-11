@@ -46,7 +46,7 @@ The most important constructors for us are `const`, `app`, `lam`, and `forallE`,
 
 ## `const` expressions
 
-These are given by the `const` constructor and represent constants in Lean. They consist of a name (which can be a qualified name) and a list of universe levels. For example, the expression `Nat` would be represented as `Lean.Expr.const Nat []`, while the expression `List Nat` would be represented as `Lean.Expr.app (Lean.Expr.const List []) (Lean.Expr.const Nat [])`.
+These are given by the `const` constructor and represent constants in Lean. They consist of a name (which can be a qualified name) and a list of universe levels. For example, the expression `Nat` would be represented as ``Lean.Expr.const `Nat []``, while the expression `List Nat` would be represented as ``Lean.Expr.app (Lean.Expr.const `List []) (Lean.Expr.const `Nat [])``.
 
 ## `app` expressions
 
