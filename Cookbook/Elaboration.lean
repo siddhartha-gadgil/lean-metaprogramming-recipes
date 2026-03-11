@@ -3,7 +3,7 @@ import Cookbook.Elaboration.elaboratingTermsCommandsAndTactics
 
 open Verso.Genre Manual
 
-#doc (Manual) "Elaboration: Adding Syntax" =>
+#doc (Manual) "Elaboration for Syntax" =>
 
 %%%
 tag := "elaboration"
